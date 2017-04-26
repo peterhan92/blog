@@ -82,6 +82,16 @@ app
 			}
 		})
 	})
+	// DELETE ROUTE
+	.delete("/blogs/:id", function(req, res) {
+		Blog.findByIdAndRemove(req.params.id, function(err) {
+			if (err) {
+				res.redirect("/blogs");
+			} else {
+				res.redirect("/blogs");
+			}
+		})
+	})
 
 app.listen(3000, function() {
 		console.log("Listening on port 3000");
