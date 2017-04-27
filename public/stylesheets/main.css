@@ -1,11 +1,16 @@
-i.icon {
+i.icon.code {
 	font-size: 2rem;
 }
-
 .container.main {
 	margin-top: 7.0rem;
 }
-
+img.thumbnail {
+	max-width: 175px;
+	max-height: 175px;
+}
+.item {
+	padding: 1% 0;
+}
 #delete {
 	display: inline;
 }
