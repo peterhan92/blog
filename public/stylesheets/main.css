@@ -11,6 +11,9 @@ img.thumbnail {
 .item {
 	padding: 1% 0;
 }
+.description {
+	padding: 5% 0;
+}
 #delete {
 	display: inline;
 }
